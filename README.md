@@ -1,37 +1,29 @@
-## Welcome to GitHub Pages
+## Welcome to Project Continuum
 
-You can use the [editor on GitHub](https://github.com/rapoth/Continuum/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+We are a group at Microsoft working on exciting Big Data problems. We will be
+updating this page with more information about the details of our work -
+please keep an eye on this space. If you are interested in joining our team,
+email me.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Publications
 
-### Markdown
+### Chi: A Scalable and Programmable Control Plane for Distributed Stream Processing Systems
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Stream-processing workloads and modern shared cluster environments exhibit
+high variability and unpredictability. Combined with the large parameter space
+and the diverse set of user SLOs, this makes modern streaming systems very
+challenging to statically configure and tune. To address these issues, in this
+paper we investigate a novel control-plane design, Chi, which supports
+continuous monitoring and feedback, and enables dynamic re-configuration. Chi
+leverages the key insight of embedding control-plane messages in the data-
+plane channels to achieve a low-latency and flexible control plane for stream-
+processing systems.
 
-```markdown
-Syntax highlighted code block
+Chi introduces a new reactive programming model and design mechanisms to
+asynchronously execute control policies, thus avoiding global synchronization.
+We show how this allows us to easily implement a wide spectrum of control
+policies targeting different use cases observed in production. Large-scale
+experiments using production workloads from a popular cloud provider
+demonstrate the flexibility and efficiency of our approach.
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/rapoth/Continuum/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Read our [paper](http://www.vldb.org/pvldb/vol11/p1303-mai.pdf) for more details.
