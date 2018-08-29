@@ -3,6 +3,14 @@
 
 @import "{{ site.theme }}";
 
+.page-header {
+  display: none;
+}
+
 header {
+  display: none;
+}
+
+footer {
   display: none;
 }
