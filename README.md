@@ -3,7 +3,7 @@
 We are a group at Microsoft working on exciting Big Data problems. We will be
 updating this page with more information about the details of our work -
 please keep an eye on this space. If you are interested in joining our team,
-email me.
+please send us an [email](mailto:bigdatajobs@microsoft.com) to check for openings.
 
 ## Publications
 
